@@ -1,0 +1,377 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+@font-face {
+    font-family: reey-regular;
+    src: url('../Reey-Regular.otf');
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    width: 1440px;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+.row{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1{
+    font-weight: normal;
+}
+header{
+    background-image: url('../img/headerbackground1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 95vh;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 1300px;
+    margin: 0px auto;
+    padding-top: 15px;
+}
+nav ul li{
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+    margin-right: 60px;
+    cursor: pointer;
+}
+.input{
+    position: relative;
+    height: 50px;
+    width: 180px;
+    background-color: #fff;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+}
+.input input{
+    margin: 0 10%;
+    height: 30px;
+    width: 80%;
+    background-color: transparent;
+    border: 0;
+}
+.input input:focus{
+    outline: none;
+}
+.input i{
+    font-size: 22px;
+    position: absolute;
+    right: 10%;
+}
+.logo{
+    margin-top: 80px;
+}
+.logo img{
+    height: 110px;
+}
+.heading{
+    color: #fff;
+}
+.heading h1{
+    margin-top: 20px;
+    font-size: 80px;
+    font-family: reey-regular;
+}
+.heading h3{
+    margin-top: 100px;
+    font-style: italic;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.btn{
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-family: inherit;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.btn-white{
+    background-color: #fff;
+    color: #000; 
+}
+.btn-black{
+    background-color: rgb(0, 0, 0);
+    color: #fff; 
+}
+.heading .btn{
+    margin-top: 50px;
+}
+.heading .text{
+    padding-top: 20px;
+    font-style: italic;
+    font-style: 18px;
+}
+.header-image{
+    position: relative;
+}
+.big-plate{
+    top: 100px;
+    position: absolute;
+    width: 585px;
+}
+.small-bowl{
+    top: 580px;
+    position: absolute;
+    width: 185px;
+}
+.leaves{
+    position: absolute;
+    top: 500px;
+    left: 150px;
+}
+.section-food h1{
+    margin-top: 60px;
+    font-size: 60px;
+    font-family: reey-regular;
+    text-align: center;
+}
+.section-food .subheading{
+    width: 600px;
+    font-size: 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+.section-food img{
+    filter: drop-shadow(0 20px 10px rgba(0, 0, 0, .5));
+    margin-top: 50px;
+    height: 340px;
+}
+.food-info{
+    margin-top: 50px;
+    padding: 10px;
+}
+.food-info h3{
+    margin-bottom: 20px;
+}
+.button{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+}
+.button .btn{
+    padding: 20px 50px;
+    font-size: 20px;
+}
+.section-info{
+    padding: 20px 0;
+    background-color: #27292c;
+    color: #fff;
+}
+.section-info h1{
+    margin-top: 50px;
+    font-size: 60px;
+    font-family: reey-regular;
+    text-align: center;
+}
+.section-info p{
+    padding: 20px;
+    text-align: justify;
+}
+.section-info .btn{
+    letter-spacing: 1px;
+    padding: 15px 50px;
+}
+.section-info button{
+    display: flex;
+    justify-content: center;
+}
+.section-offer{
+    padding: 50px 0;
+}
+.section-offer img{
+    filter: drop-shadow(0 50px 20px rgba(0, 0, 0, .5));
+    height: 600px;
+}
+.offer-text{
+    margin: 70px 0 0 50px;
+}
+.offer-text h2{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.offer-text p{
+    font-size: 24px;
+    padding-right: 30px;
+}
+.section-offer .btn{
+    font-size: 22px;
+    font-weight: 700;
+    padding: 15px 40px;
+    letter-spacing: 3px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.section-pizza{
+    position: relative;
+    padding-top: 50px;
+    height: 95vh;
+    background-image: url('../img/Background2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+.pizza-text{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.pizza-text h1{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 60px;
+    font-family: reey-regular;
+}
+.pizza-text p{
+    font-size: 20px;
+    text-align: center;
+    width: 650px;
+}
+.dash{
+    text-align: center;
+    display: inline-block;
+    content: '';
+    width: 150px;
+    border: 4px solid #fff;
+    margin-top: 20px;
+}
+.pizza-img{
+    position: absolute;
+    width: 800px;
+    top: 270px;
+    right: 50px;
+    transform: rotateZ(120deg);
+}
+.pizza-slice{
+    position: absolute;
+    top: 670px;
+    right: 545px;
+    transform: rotateZ(120deg);
+    height: 300px;
+}
+.pizza-leaves{
+    position: absolute;
+    top: -170px;
+    right: -10px;
+}
+.section-about{
+    padding: 150px;
+}
+.about-text h2{
+    font-family: reey-regular;
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+.about-text2{
+    font-size: 20px;
+    font-weight: 600;
+    width: 700px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+.section-subscribe{
+    background-color: #27292c;
+    padding: 200px 0;
+    position: relative;
+}
+.section-subscribe .subscribe-leaves1{
+    position: absolute;
+    top: -100px;
+    right: 0;
+}
+.section-subscribe .subscribe-leaves2{
+    position: absolute;
+    top: 450px;
+    left: 0;
+}
+.section-subscribe .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+.section-subscribe .text h1{
+    font-size: 50px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.section-subscribe .text p{
+    text-align: center;
+    width: 700px;
+    font-size: 22px;
+}
+.subscribe-input{
+    margin-left: 345px;
+    margin-top: 100px;
+}
+.subscribe-input input{
+    width: 600px;
+    height: 65px;
+    border: 0;
+    border-radius: 100px;
+    font-size: 20px;
+    padding-left: 25px;
+}
+.subscribe-input label{
+    position: absolute;
+    background-color: #54524f;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 26px;
+    padding: 15px 30px;
+    margin-left: -60px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+footer{
+    padding: 100px 0;
+}
+footer .text h2{
+    font-weight: normal;
+    margin-bottom: 30px;
+}
+footer li:not(:first-child){
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+footer li:not(:first-child):hover{
+    cursor: pointer;
+}
+footer li h2{
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+footer .text p{
+    padding-right: 30px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer ul li{
+    list-style: none;
+}
+.social{
+    margin-top: 20px;
+}
+.social i{
+    font-size: 30px;
+}
+.social li{
+    margin-right: 15px;
+    display: inline-block;
+}
